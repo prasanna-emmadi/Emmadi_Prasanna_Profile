@@ -1,0 +1,234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Feb 2020, 6.48.46
+    Author     : Emmadi Prasanna
+*/
+
+/* global styles */
+.layout {
+    background-color: #FED777;
+    max-width: 1000px;
+    margin-left: 1em;
+}
+nav {
+    margin-left: 1em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li  a {
+    background-color: #A77802;
+    line-height: 2em;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+    color: white;
+    width: 70px;
+    text-align: center;
+}
+
+nav li  a:hover {
+    text-decoration: underline;
+} 
+
+.alignleft {
+    float: left;
+    width: 48%;
+    margin-left: 0.5em;
+}
+
+.alignright {
+    float: right;
+    width: 48%;
+    margin-right: 0.5em;
+}
+
+.aligntextright {
+    text-align: right;
+}
+
+.footerlayout {
+    background-color: #FED777;
+    display: flow-root;
+    line-height: 20px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+p, table, address, h3, h2 {
+    margin-left: 0.5em;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    padding-bottom: 1em;
+}
+/* Me styles*/
+
+article{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #FFF5DC;
+}
+
+
+div.palsta {
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1em;
+}
+
+
+div.tableCell {
+    padding: 0;
+    display: table-cell;
+    vertical-align: top;
+    margin-right: 1em;
+}
+.opaque {
+    opacity: 1;
+}
+
+/* Studies styles */
+td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 2px;
+}
+
+h2{
+    font-weight: bold;
+    display: block;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    padding-top: 1em;
+}
+
+/* Images styles */
+.images {
+    padding-top: 5em;
+}
+.images li {
+    display: inline-block;
+    width: 20%;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+figcaption {
+    opacity: 0;
+}
+
+figure:hover figcaption{
+    opacity: 1;
+}
+
+.images li img {
+    border :1px solid;
+    border-radius:10px;
+    border-color: #1A3E4C;
+}
+
+.images ul {
+    list-style: none;
+}
+
+.images li:before {
+    content: none;
+}
+
+/* Leisure styles*/
+ul {
+    padding-top: 1em;
+    list-style: none;
+}
+
+#gym ul li:before {
+    content: "\2023 \0020";
+}
+
+#shop ul li:before {
+    content: "\00BB \0020";
+}
+
+#market ul li:before {
+    content: "\2660 \0020";
+}
+
+#market ul {
+    margin-left: 0.5em;
+}
+
+
+#leisure ul li:before {
+    content: "\266A \0020";
+}
+
+/* Contact form css */
+/* Style inputs with type="text", select elements and textareas */
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+select {
+    height: 40px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit], input[type=reset] {
+    background-color: #A77802;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 400px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.space {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    display: block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+
